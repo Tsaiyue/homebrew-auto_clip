@@ -6,7 +6,7 @@ class AutoClip < Formula
     license "MIT"
   
     depends_on "ffmpeg"  # Declare that the user needs to install FFmpeg
-    depends_on "python@3.9.6"  # Declare that the user needs to install Python 3.9.6
+    depends_on "python@3.9"  # Declare that the user needs to install Python 3.9.6
 
     def install
       bin.install "auto_clip"  # Install
